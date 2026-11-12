@@ -1,0 +1,17 @@
+{
+  "lengths": [
+    128
+  ],
+  "epochs": 2,
+  "batch_size": 32,
+  "threads": 6,
+  "bf16": false,
+  "model": ".cache/distilbert-base-uncased",
+  "seed": 42,
+  "split_sha256": "90b3d418ba242a3a8f22738031f2955ce2e679abeaaedfb8e51d3322ab0e23d0",
+  "torch": "2.6.0+cpu",
+  "hardware": "AMD64 Family 25 Model 116 Stepping 1, AuthenticAMD",
+  "train_samples": 12265,
+  "validation_samples": 2439,
+  "test_samples": 2466
+}

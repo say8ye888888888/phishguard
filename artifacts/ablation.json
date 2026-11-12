@@ -1,0 +1,8 @@
+[
+  {
+    "max_length": 128,
+    "validation_f1": 0.9731471535982814,
+    "training_seconds": 1801.133219999996,
+    "validation_truncated_fraction": 0.7211972119721197
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "source": "zefang-liu/phishing-email-dataset or supplied CSV",
+  "seed": 42,
+  "raw_rows": 18650,
+  "clean_rows": 17170,
+  "near_duplicate_groups": 16392,
+  "split_counts": {
+    "0": {
+      "test": 1572,
+      "train": 7622,
+      "validation": 1501
+    },
+    "1": {
+      "test": 894,
+      "train": 4643,
+      "validation": 938
+    }
+  },
+  "sha256": "43d270aaf7d883acd1d613e14c44cf9c837682cfa54b1ee3ee62ec8e5a35f630",
+  "note": "Approximate near-duplicate grouping: normalized text + 3-word MinHash LSH, threshold 0.85. Group-stratified split approximately 5/7,1/7,1/7; residual near duplicates may remain."
+}

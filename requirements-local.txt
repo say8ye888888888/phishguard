@@ -1,0 +1,9 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.2
+streamlit==1.53.0
+plotly==5.22.0
+requests==2.32.2
+datasketch==1.10.0
+pyarrow==14.0.2
